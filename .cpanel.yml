@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mdnhscom/portfolio.mdnhs.com/
+    - export DEPLOYPATH=/home/mdnhscom/por.mdnhs.com/
     - /bin/cp * $DEPLOYPATH
