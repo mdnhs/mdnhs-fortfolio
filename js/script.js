@@ -88,7 +88,7 @@ document.addEventListener("click", (e) => {
 
 function portfolioItemDetails(portfolioItem) {
     //console.log(portfolioItem);
-    document.querySelector(".pp-thumbnail img").src = portfolioItem.querySelector(".portfolio-item-thumbnail img").src;
+    document.querySelector(".pp-thumbnail img").src = portfolioItem.querySelector(".portfolio-item img").src;
 
     document.querySelector(".pp-header h3").innerHTML = portfolioItem.querySelector(".portfolio-item-title").innerHTML;
 
